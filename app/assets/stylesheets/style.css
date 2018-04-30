@@ -7,3 +7,9 @@
 .notification:not(:last-child) {
 	margin-bottom: 0;
 }
+
+
+#topbar{
+	padding-top: 5;
+	padding-bottom: 5;
+}
