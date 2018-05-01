@@ -236,7 +236,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
-  coffee-rails
+  coffee-rails (~> 4.2, >= 4.2.2)
   devise (~> 4.4, >= 4.4.3)
   duktape
   gravatar_image_tag (~> 1.2)
@@ -246,12 +246,12 @@ DEPENDENCIES
   public_activity (~> 1.5)
   puma (~> 3.11)
   rails (~> 5.2.0)
-  sass-rails
+  sass-rails (~> 5.0, >= 5.0.7)
   selenium-webdriver
   simple_form (~> 4.0)
   turbolinks (~> 5)
   tzinfo-data
-  uglifier
+  uglifier (~> 4.1, >= 4.1.10)
   wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   wysiwyg-rails (~> 2.8, >= 2.8.1)

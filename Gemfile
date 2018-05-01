@@ -23,9 +23,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
+  gem 'sass-rails', '~> 5.0', '>= 5.0.7'
+  gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+  gem 'uglifier', '~> 4.1', '>= 4.1.10'
 end
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
