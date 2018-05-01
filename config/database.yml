@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: webapp_production
-  username: webapp
+  username: esiri
   password: <%= ENV['PROJECTAPP_DATABASE_PASSWORD'] %>
